@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Adigopula Siva Balaji — Full-Stack Developer & AI/ML Engineer. MERN Stack, Deep Learning, Multi-Cloud."/>
+  <title>Siva Balaji | Full-Stack Dev & AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&family=Space+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ─── MATRIX RAIN ──────────────────────────────────────── -->
+  <canvas id="matrix-bg"></canvas>
+
+  <!-- ─── BOOT SCREEN ─────────────────────────────────────── -->
+  <div id="boot">
+    <div class="bl" id="b0"><span class="ok">[ OK ]</span> Starting kernel siva-balaji-5.15.0-generic...</div>
+    <div class="bl" id="b1"><span class="ok">[ OK ]</span> Loading mern_stack.ko &nbsp; react vite nodejs express mongodb tailwind...</div>
+    <div class="bl" id="b2"><span class="ok">[ OK ]</span> Loading ai_stack.ko &nbsp;&nbsp;&nbsp; pytorch tensorflow keras scikit-learn nlp...</div>
+    <div class="bl" id="b3"><span class="ok">[ OK ]</span> Loading cloud.ko &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; oracle-oci azure-ai google-cloud ibm-cloud...</div>
+    <div class="bl" id="b4"><span class="ok">[ OK ]</span> Mounting /dev/portfolio on /home/sivabalaji... <span class="ok">[ 100% ]</span></div>
+    <div class="bl" id="b5" style="margin-top:1rem">
+      <span class="boot-welcome">Welcome to </span><span class="ok">Siva Balaji's Dev Environment</span>
+    </div>
+    <div class="bl" id="b6">
+      <a href="#contact" class="boot-hire">$ hire --me&nbsp;<span class="blink-cur">▋</span></a>
+    </div>
+  </div>
+
+  <!-- ─── NAVIGATION ──────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-brand">
+      <img class="nav-avatar profile-img" src="" alt="Siva Balaji"/>
+      <span class="nav-prompt">siva@portfolio:~$</span>
+    </a>
+    <div class="nav-pieces">
+      <a href="#hero"           title="Home">&#9812;</a>
+      <a href="#skills"         title="Skills">&#9813;</a>
+      <a href="#projects"       title="Projects">&#9814;</a>
+      <a href="#certifications" title="Certifications">&#9815;</a>
+      <a href="#education"      title="Education">&#9816;</a>
+      <a href="#contact"        title="Contact">&#9817;</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">repos</a></li>
+      <li><a href="#certifications">badges</a></li>
+      <li><a href="#education">git log</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  HERO                                                   -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-inner">
+
+      <!-- Profile photo -->
+      <div class="hero-img-wrap">
+        <img class="hero-avatar profile-img" src="" alt="Siva Balaji"/>
+        <span class="online-dot"></span>
+      </div>
+
+      <!-- Comment line -->
+      <p class="hero-comment">// Hello, World! Let's build intelligent systems.</p>
+
+      <!-- Big name -->
+      <h1 class="hero-name">
+        <span class="name-first">Adigopula</span>
+        <span class="name-last">Siva Balaji</span>
+      </h1>
+
+      <!-- Typewriter -->
+      <div class="hero-typewriter-row">
+        <span id="typewriter"></span><span class="blink-cur">|</span>
+      </div>
+
+      <!-- Role pills -->
+      <div class="hero-pills">
+        <span class="pill">Full-Stack Dev</span>
+        <span class="pill">AI / ML Engineer</span>
+        <span class="pill">Deep Learning</span>
+        <span class="pill">Multi-Cloud</span>
+        <span class="pill">NLP</span>
+        <span class="pill">Data Science</span>
+      </div>
+
+      <!-- CTA buttons -->
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <span class="btn-icon">&lt;/&gt;</span> View Repos
+        </a>
+        <a href="https://drive.google.com/uc?export=download&id=1NWAiQiDel-QBEx2LlkraNCEKBZFvEFa5"
+           class="btn btn-secondary" target="_blank" rel="noopener">
+          <span class="btn-icon">&#8659;</span> Resume
+        </a>
+        <a href="https://github.com/SivaBalaji45" class="btn btn-outline" target="_blank" rel="noopener">
+          <span class="btn-icon">&#9095;</span> GitHub
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  CHESS STRATEGY                                         -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section id="strategy">
+    <div class="section-wrap">
+      <p class="s-cmd">$ strategy --mode=chess</p>
+      <h2 class="s-title">
+        <span class="chess-row">&#9812;&#9813;&#9814;&#9815;&#9816;&#9817;</span>
+        The Coder's Board
+      </h2>
+      <div class="chess-grid reveal">
+        <div class="chess-card">
+          <span class="cc-sym">&#9812;</span>
+          <div class="cc-role">King</div>
+          <div class="cc-name">Python</div>
+          <div class="cc-desc">The foundation that anchors the board — from data pipelines to GRU training loops.</div>
+        </div>
+        <div class="chess-card">
+          <span class="cc-sym">&#9813;</span>
+          <div class="cc-role">Queen</div>
+          <div class="cc-name">MERN Stack</div>
+          <div class="cc-desc">React · Node · Express · MongoDB. Fast, flexible, full-range power for end-to-end systems.</div>
+        </div>
+        <div class="chess-card">
+          <span class="cc-sym">&#9814;</span>
+          <div class="cc-role">Rook</div>
+          <div class="cc-name">Node.js + Express</div>
+          <div class="cc-desc">Straight-line backend force. REST APIs, JWT auth, production-grade server logic.</div>
+        </div>
+        <div class="chess-card">
+          <span class="cc-sym">&#9815;</span>
+          <div class="cc-role">Bishop</div>
+          <div class="cc-name">PyTorch + TensorFlow</div>
+          <div class="cc-desc">Deep learning navigating complexity — GRU, LSTM, CNN, transfer learning on every diagonal.</div>
+        </div>
+        <div class="chess-card">
+          <span class="cc-sym">&#9816;</span>
+          <div class="cc-role">Knight</div>
+          <div class="cc-name">Multi-Cloud</div>
+          <div class="cc-desc">Oracle · Azure · Google · IBM. Unconventional moves across platforms and paradigms.</div>
+        </div>
+        <div class="chess-card">
+          <span class="cc-sym">&#9817;</span>
+          <div class="cc-role">Pawn</div>
+          <div class="cc-name">Git + JWT Auth</div>
+          <div class="cc-desc">Small disciplined steps that ship real, secure, production-ready work every time.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  SKILLS                                                 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="section-wrap">
+      <p class="s-cmd">$ ls -la ~/skills/ | tree</p>
+      <h2 class="s-title"><span class="chess-icon">&#9813;</span> Skills &amp; Stack</h2>
+      <div class="skills-grid reveal">
+
+        <div class="sk-card">
+          <div class="sk-hdr">
+            <span class="sk-br">&#9500;&#9472;&#9472;</span>
+            <span class="sk-ico">{ }</span>
+            <span class="sk-cat">languages/</span>
+          </div>
+          <div class="sk-tags">
+            <span class="sk-tag t-lang">Python</span>
+            <span class="sk-tag t-lang">JavaScript ES6+</span>
+            <span class="sk-tag t-lang">Java</span>
+            <span class="sk-tag t-lang">SQL</span>
+            <span class="sk-tag t-lang">R</span>
+          </div>
+        </div>
+
+        <div class="sk-card">
+          <div class="sk-hdr">
+            <span class="sk-br">&#9500;&#9472;&#9472;</span>
+            <span class="sk-ico">&#9881;</span>
+            <span class="sk-cat">web_full_stack/</span>
+          </div>
+          <div class="sk-tags">
+            <span class="sk-tag t-web">React.js</span>
+            <span class="sk-tag t-web">Node.js</span>
+            <span class="sk-tag t-web">Express.js</span>
+            <span class="sk-tag t-web">MongoDB</span>
+            <span class="sk-tag t-web">REST APIs</span>
+            <span class="sk-tag t-web">Tailwind CSS</span>
+            <span class="sk-tag t-web">Vite</span>
+            <span class="sk-tag t-web">JWT Auth</span>
+            <span class="sk-tag t-web">HTML5 / CSS3</span>
+          </div>
+        </div>
+
+        <div class="sk-card">
+          <div class="sk-hdr">
+            <span class="sk-br">&#9500;&#9472;&#9472;</span>
+            <span class="sk-ico">&#127757;</span>
+            <span class="sk-cat">ai_ml_dl/</span>
+          </div>
+          <div class="sk-tags">
+            <span class="sk-tag t-ai">Machine Learning</span>
+            <span class="sk-tag t-ai">Deep Learning</span>
+            <span class="sk-tag t-ai">GRU / LSTM / CNN</span>
+            <span class="sk-tag t-ai">Generative AI</span>
+            <span class="sk-tag t-ai">LLMs</span>
+            <span class="sk-tag t-ai">Reinforcement Learning</span>
+            <span class="sk-tag t-ai">Transfer Learning</span>
+            <span class="sk-tag t-ai">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <div class="sk-card">
+          <div class="sk-hdr">
+            <span class="sk-br">&#9500;&#9472;&#9472;</span>
+            <span class="sk-ico">&#128202;</span>
+            <span class="sk-cat">data_science/</span>
+          </div>
+          <div class="sk-tags">
+            <span class="sk-tag t-data">Pandas</span>
+            <span class="sk-tag t-data">NumPy</span>
+            <span class="sk-tag t-data">Matplotlib</span>
+            <span class="sk-tag t-data">Seaborn</span>
+            <span class="sk-tag t-data">scikit-learn</span>
+            <span class="sk-tag t-data">Statistical Modeling</span>
+            <span class="sk-tag t-data">Feature Engineering</span>
+            <span class="sk-tag t-data">Jupyter Notebook</span>
+          </div>
+        </div>
+
+        <div class="sk-card">
+          <div class="sk-hdr">
+            <span class="sk-br">&#9500;&#9472;&#9472;</span>
+            <span class="sk-ico">&#128065;</span>
+            <span class="sk-cat">nlp_cv/</span>
+          </div>
+          <div class="sk-tags">
+            <span class="sk-tag t-nlp">NLP</span>
+            <span class="sk-tag t-nlp">Tokenization</span>
+            <span class="sk-tag t-nlp">Vectorization</span>
+            <span class="sk-tag t-nlp">Text Classification</span>
+            <span class="sk-tag t-nlp">Sentiment Analysis</span>
+            <span class="sk-tag t-nlp">OpenCV</span>
+            <span class="sk-tag t-nlp">Image Processing</span>
+          </div>
+        </div>
+
+        <div class="sk-card">
+          <div class="sk-hdr">
+            <span class="sk-br">&#9500;&#9472;&#9472;</span>
+            <span class="sk-ico">&#9096;</span>
+            <span class="sk-cat">frameworks_tools/</span>
+          </div>
+          <div class="sk-tags">
+            <span class="sk-tag t-fw">PyTorch</span>
+            <span class="sk-tag t-fw">TensorFlow</span>
+            <span class="sk-tag t-fw">Keras</span>
+            <span class="sk-tag t-fw">Git</span>
+            <span class="sk-tag t-fw">Cloudinary</span>
+            <span class="sk-tag t-fw">Databricks</span>
+            <span class="sk-tag t-fw">AI Vector Search</span>
+          </div>
+        </div>
+
+        <div class="sk-card sk-wide">
+          <div class="sk-hdr">
+            <span class="sk-br">&#9492;&#9472;&#9472;</span>
+            <span class="sk-ico">&#9729;</span>
+            <span class="sk-cat">cloud_platforms/</span>
+          </div>
+          <div class="sk-tags">
+            <span class="sk-tag t-cloud">Oracle OCI</span>
+            <span class="sk-tag t-cloud">Microsoft Azure AI</span>
+            <span class="sk-tag t-cloud">Google Cloud</span>
+            <span class="sk-tag t-cloud">IBM Cloud</span>
+            <span class="sk-tag t-cloud">MongoDB Atlas</span>
+            <span class="sk-tag t-cloud">Vercel</span>
+            <span class="sk-tag t-cloud">Render</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  PROJECTS                                               -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="section-wrap">
+      <p class="s-cmd">$ gh repo list --pinned</p>
+      <h2 class="s-title"><span class="chess-icon">&#9814;</span> Pinned Repositories</h2>
+      <div class="proj-grid reveal">
+
+        <div class="proj-card">
+          <div class="proj-lang">
+            <span class="lang-dot" style="background:#f7df1e"></span>
+            <span>JavaScript &middot; React &middot; Node.js</span>
+            <span class="proj-year">2025</span>
+          </div>
+          <h3 class="proj-title">PlagiaCheck &mdash; AI Plagiarism Detector</h3>
+          <p class="proj-desc">
+            Full-stack plagiarism detection system using 4 NLP algorithms in parallel —
+            N-gram Fingerprinting (35%), TF-IDF Cosine Similarity (30%), Jaccard Index (20%),
+            and LCS (15%). Supports .txt &amp; .pdf uploads with a complete React + Node.js stack.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">React 18</span><span class="tag">Vite</span>
+            <span class="tag">TailwindCSS</span><span class="tag">Node.js</span>
+            <span class="tag">MongoDB</span><span class="tag">TF-IDF</span>
+            <span class="tag">NLP</span><span class="tag">N-gram</span>
+          </div>
+          <a href="https://github.com/SivaBalaji45/AI-Plagiarism-Detector"
+             class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-lang">
+            <span class="lang-dot" style="background:#3776ab"></span>
+            <span>Python &middot; ML Research</span>
+            <span class="proj-year">2025</span>
+          </div>
+          <h3 class="proj-title">Multi-Modal AIops &mdash; Server Failure Prediction</h3>
+          <p class="proj-desc">
+            ML research project predicting server failures using intelligent multi-modal
+            data fusion. Step-wise pipeline — HDFS log parsing, then evaluation on both
+            HDFS and SMD (Server Machine Dataset) datasets with full reports per run.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">Python</span><span class="tag">Multi-Modal Fusion</span>
+            <span class="tag">AIOps</span><span class="tag">Log Parsing</span>
+            <span class="tag">HDFS</span><span class="tag">Anomaly Detection</span>
+          </div>
+          <a href="https://github.com/SivaBalaji45/Mutli-modal-AIops-predicting-server-failures-using-intelligent-fusion-"
+             class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-lang">
+            <span class="lang-dot" style="background:#61dafb"></span>
+            <span>React &middot; Node.js &middot; Firebase</span>
+            <span class="proj-year">2024 &ndash; Present</span>
+          </div>
+          <h3 class="proj-title">Adigopula Family App</h3>
+          <p class="proj-desc">
+            Full-stack MERN family photo-sharing and genealogy platform with JWT
+            authentication, admin-controlled user accounts with role assignment,
+            Firebase Storage, and interactive multi-generation family tree visualization.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">React</span><span class="tag">Vite</span>
+            <span class="tag">TailwindCSS</span><span class="tag">Node.js</span>
+            <span class="tag">MongoDB</span><span class="tag">Firebase</span>
+            <span class="tag">JWT</span>
+          </div>
+          <a href="https://github.com/SivaBalaji45/my-family-app-"
+             class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-lang">
+            <span class="lang-dot" style="background:#f7941d"></span>
+            <span>HTML &middot; CSS &middot; JavaScript</span>
+            <span class="proj-year">2023</span>
+          </div>
+          <h3 class="proj-title">Text-to-Speech Converter</h3>
+          <p class="proj-desc">
+            Cross-browser text-to-speech app using the Web Speech API with dynamic
+            voice and language selection, responsive UI, and real-time speech synthesis —
+            zero backend, zero dependencies, runs entirely in the browser.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">JavaScript</span><span class="tag">Web Speech API</span>
+            <span class="tag">HTML5</span><span class="tag">CSS3</span>
+            <span class="tag">Responsive UI</span>
+          </div>
+          <a href="https://github.com/SivaBalaji45/Text-to-Speech-Converter-using-HTML-CSS-JavaScript"
+             class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  CERTIFICATIONS                                         -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section id="certifications">
+    <div class="section-wrap">
+      <p class="s-cmd">$ open ~/certifications</p>
+      <h2 class="s-title"><span class="chess-icon">&#9815;</span> Badges &amp; Credentials</h2>
+      <div class="cert-grid reveal">
+        <div class="cert-card"><div class="cert-ico">&#128374;</div><div class="cert-prov">ORACLE</div><div class="cert-name">OCI 2025 Generative AI Professional</div></div>
+        <div class="cert-card"><div class="cert-ico">&#128142;</div><div class="cert-prov">ORACLE</div><div class="cert-name">AI Vector Search Certified</div></div>
+        <div class="cert-card"><div class="cert-ico">&#128374;</div><div class="cert-prov">ORACLE</div><div class="cert-name">AI Foundations Associate</div></div>
+        <div class="cert-card"><div class="cert-ico">&#9729;</div><div class="cert-prov">MICROSOFT</div><div class="cert-name">Azure AI-900 AI Fundamentals</div></div>
+        <div class="cert-card"><div class="cert-ico">&#127775;</div><div class="cert-prov">GOOGLE</div><div class="cert-name">AI using TensorFlow</div></div>
+        <div class="cert-card"><div class="cert-ico">&#127775;</div><div class="cert-prov">GOOGLE</div><div class="cert-name">15 Badge Generative AI Program</div></div>
+        <div class="cert-card"><div class="cert-ico">&#127775;</div><div class="cert-prov">GOOGLE</div><div class="cert-name">GDG Solution Challenge India 2025</div></div>
+        <div class="cert-card"><div class="cert-ico">&#128187;</div><div class="cert-prov">IBM</div><div class="cert-name">Machine Learning with Python</div></div>
+        <div class="cert-card"><div class="cert-ico">&#128187;</div><div class="cert-prov">IBM</div><div class="cert-name">SQL &amp; Relational Databases 101</div></div>
+        <div class="cert-card"><div class="cert-ico">&#128187;</div><div class="cert-prov">IBM</div><div class="cert-name">Python 101 for Data Science</div></div>
+        <div class="cert-card"><div class="cert-ico">&#9889;</div><div class="cert-prov">DATABRICKS</div><div class="cert-name">Generative AI Fundamentals</div></div>
+        <div class="cert-card"><div class="cert-ico">&#9889;</div><div class="cert-prov">DATABRICKS</div><div class="cert-name">SQL Analytics &amp; BI on Databricks</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  EDUCATION                                              -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section id="education">
+    <div class="section-wrap">
+      <p class="s-cmd">$ git log --oneline --graph career</p>
+      <h2 class="s-title"><span class="chess-icon">&#9816;</span> Experience Timeline</h2>
+      <div class="timeline reveal">
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-commit">commit a4f2c1e &middot; branch: main &middot; status: active &#128994;</div>
+          <div class="tl-title">B.Tech — Computer Science and Engineering</div>
+          <div class="tl-sub">Vellore Institute of Technology (VIT), Amaravati, AP &middot; Jun 2022 – Jun 2026</div>
+          <p class="tl-desc">Relevant Coursework: Data Structures &amp; Algorithms, Machine Learning, Deep Learning,
+          NLP, DBMS, Web Development, Statistics, Computer Networks. Applied work across
+          full-stack engineering, AI/ML research, cloud deployment, and end-to-end project building.</p>
+          <div class="tl-tags">
+            <span class="tl-tag">DSA</span><span class="tl-tag">ML</span>
+            <span class="tl-tag">Deep Learning</span><span class="tl-tag">NLP</span>
+            <span class="tl-tag">Web Dev</span><span class="tl-tag">DBMS</span>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-commit">commit b2e9f3a &middot; branch: foundation</div>
+          <div class="tl-title">Intermediate Education (MPC)</div>
+          <div class="tl-sub">Sri Chaitanya Junior College, Vijayawada, AP &middot; Jun 2020 – Jun 2022</div>
+          <p class="tl-desc">Mathematics, Physics, Chemistry — the analytical foundation that drives
+          computational thinking, algorithm design, and statistical modeling.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  CONTACT                                                -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="section-wrap">
+      <p class="s-cmd">$ ./connect.sh</p>
+      <h2 class="s-title"><span class="chess-icon">&#9817;</span> Contact</h2>
+      <div class="contact-grid reveal">
+
+        <div class="contact-left">
+          <p class="contact-bio">
+            Available for full-stack SDE roles, AI/ML engineering, and research-heavy builds
+            where the model has to meet the user interface cleanly.
+            Graduating June 2026 — open to full-time positions and remote work.
+          </p>
+          <a href="mailto:sivabalajiadigopula@gmail.com" class="contact-link">
+            <span class="cl-icon">&#9993;</span>
+            <div><span class="cl-label">&#10003; email</span><span class="cl-val">sivabalajiadigopula@gmail.com</span></div>
+          </a>
+          <a href="tel:+918919077933" class="contact-link">
+            <span class="cl-icon">&#9742;</span>
+            <div><span class="cl-label">&#10003; phone</span><span class="cl-val">+91 8919077933</span></div>
+          </a>
+          <a href="https://www.linkedin.com/in/adigopula-siva-balaji-9801a4256/" target="_blank" class="contact-link">
+            <span class="cl-icon cl-in">in</span>
+            <div><span class="cl-label">&#10003; linkedin</span><span class="cl-val">/in/adigopula-siva-balaji</span></div>
+          </a>
+          <a href="https://github.com/SivaBalaji45" target="_blank" class="contact-link">
+            <span class="cl-icon">&#9095;</span>
+            <div><span class="cl-label">&#10003; github</span><span class="cl-val">/SivaBalaji45</span></div>
+          </a>
+        </div>
+
+        <div class="contact-term">
+          <div class="term-bar">
+            <span class="td td-r"></span><span class="td td-y"></span><span class="td td-g"></span>
+            <span class="term-ttl">connect.sh</span>
+          </div>
+          <div class="term-body">
+            <div class="term-line">$ chmod +x connect.sh &amp;&amp; ./connect.sh</div>
+            <div class="term-divider"></div>
+            <div class="term-line ok">&#10003; email   : sivabalajiadigopula@gmail.com</div>
+            <div class="term-line ok">&#10003; phone   : +91 8919077933</div>
+            <div class="term-line ok">&#10003; linkedin: /in/adigopula-siva-balaji</div>
+            <div class="term-line ok">&#10003; github  : /SivaBalaji45</div>
+            <div class="term-divider"></div>
+            <div class="term-line"><span class="term-key">&#10140; response_mode</span>: direct, technical, collaborative</div>
+            <div class="term-line dim" style="margin-top:.5rem">$ status --open-to-work</div>
+            <div class="term-line ok">&#10003; OPEN TO: Full-Time &middot; SDE &middot; AI/ML &middot; Full-Stack</div>
+            <div class="term-line dim">&#10003; LOCATION: India &nbsp;(Remote-friendly)</div>
+            <div class="term-line dim">&#10003; AVAIL   : June 2026</div>
+            <div class="term-prompt">
+              <span class="p-user">siva</span><span class="p-at">@</span><span class="p-host">arch</span><span class="p-path">:~$&nbsp;</span><span class="blink-cur">&#9607;</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-chess">&#9812; &#9813; &#9814; &#9815; &#9816; &#9817;</div>
+    <div>Adigopula Siva Balaji &middot; Full-Stack Dev &amp; AI Engineer &middot; VIT Amaravati '26</div>
+    <div class="footer-sub">Built with HTML &middot; CSS &middot; JS &mdash; Deployed on Vercel</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
