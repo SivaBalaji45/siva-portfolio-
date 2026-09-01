@@ -83,10 +83,11 @@
       <div class="hero-pills">
         <span class="pill">Full-Stack Dev</span>
         <span class="pill">AI / ML Engineer</span>
-        <span class="pill">Deep Learning</span>
-        <span class="pill">Multi-Cloud</span>
+        <span class="pill">Medical AI</span>
+        <span class="pill">Computer Vision</span>
         <span class="pill">NLP</span>
-        <span class="pill">Data Science</span>
+        <span class="pill">Multi-Cloud</span>
+        <span class="pill">AIOps</span>
       </div>
 
       <!-- CTA buttons -->
@@ -94,7 +95,7 @@
         <a href="#projects" class="btn btn-primary">
           <span class="btn-icon">&lt;/&gt;</span> View Repos
         </a>
-        <a href="https://drive.google.com/uc?export=download&id=1NWAiQiDel-QBEx2LlkraNCEKBZFvEFa5"
+        <a href="https://drive.google.com/file/d/1G_sXVvWE9okUoBDDKrNxN39jsjJ3ee57/preview"
            class="btn btn-secondary" target="_blank" rel="noopener">
           <span class="btn-icon">&#8659;</span> Resume
         </a>
@@ -300,28 +301,32 @@
       <h2 class="s-title"><span class="chess-icon">&#9814;</span> Pinned Repositories</h2>
       <div class="proj-grid reveal">
 
-        <div class="proj-card">
+        <!-- ── 1. OncoScan AI (FEATURED) ── -->
+        <div class="proj-card proj-featured">
+          <div class="feat-badge">&#9733; Flagship Project</div>
           <div class="proj-lang">
-            <span class="lang-dot" style="background:#f7df1e"></span>
-            <span>JavaScript &middot; React &middot; Node.js</span>
+            <span class="lang-dot" style="background:#ee4c2c"></span>
+            <span>Python &middot; React &middot; FastAPI &middot; GCP</span>
             <span class="proj-year">2025</span>
           </div>
-          <h3 class="proj-title">PlagiaCheck &mdash; AI Plagiarism Detector</h3>
+          <h3 class="proj-title">OncoScan AI &mdash; Tumor Detection with XAI</h3>
           <p class="proj-desc">
-            Full-stack plagiarism detection system using 4 NLP algorithms in parallel —
-            N-gram Fingerprinting (35%), TF-IDF Cosine Similarity (30%), Jaccard Index (20%),
-            and LCS (15%). Supports .txt &amp; .pdf uploads with a complete React + Node.js stack.
+            End-to-end medical imaging system detecting tumors in <strong>Brain MRI</strong>
+            (94% test accuracy, 7,200 scans) and <strong>Breast Ultrasound</strong> (80%, 780 scans).
+            Grad-CAM explainability highlights exactly where the tumor is. Full production pipeline:
+            PyTorch ResNet18 &rarr; FastAPI &rarr; React UI &rarr; Docker &rarr; GKE on GCP.
           </p>
           <div class="proj-tags">
-            <span class="tag">React 18</span><span class="tag">Vite</span>
-            <span class="tag">TailwindCSS</span><span class="tag">Node.js</span>
-            <span class="tag">MongoDB</span><span class="tag">TF-IDF</span>
-            <span class="tag">NLP</span><span class="tag">N-gram</span>
+            <span class="tag">PyTorch</span><span class="tag">ResNet18</span>
+            <span class="tag">Grad-CAM XAI</span><span class="tag">FastAPI</span>
+            <span class="tag">React + Vite</span><span class="tag">Docker</span>
+            <span class="tag">GKE / GCP</span><span class="tag">scikit-learn</span>
           </div>
-          <a href="https://github.com/SivaBalaji45/AI-Plagiarism-Detector"
+          <a href="https://github.com/SivaBalaji45/END-2-END-Tumor-Detection-with-XAI-and-GCP"
              class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
         </div>
 
+        <!-- ── 2. AIops Server Failure Prediction ── -->
         <div class="proj-card">
           <div class="proj-lang">
             <span class="lang-dot" style="background:#3776ab"></span>
@@ -330,9 +335,9 @@
           </div>
           <h3 class="proj-title">Multi-Modal AIops &mdash; Server Failure Prediction</h3>
           <p class="proj-desc">
-            ML research project predicting server failures using intelligent multi-modal
-            data fusion. Step-wise pipeline — HDFS log parsing, then evaluation on both
-            HDFS and SMD (Server Machine Dataset) datasets with full reports per run.
+            Predicts server failures <strong>5&ndash;10 minutes before they occur</strong> by fusing
+            system logs, performance metrics, and distributed traces &mdash; no GPU required.
+            Evaluated on HDFS and SMD (Server Machine Dataset) with full evaluation reports per run.
           </p>
           <div class="proj-tags">
             <span class="tag">Python</span><span class="tag">Multi-Modal Fusion</span>
@@ -343,6 +348,30 @@
              class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
         </div>
 
+        <!-- ── 3. PlagiaCheck ── -->
+        <div class="proj-card">
+          <div class="proj-lang">
+            <span class="lang-dot" style="background:#f7df1e"></span>
+            <span>JavaScript &middot; React &middot; Node.js</span>
+            <span class="proj-year">2025</span>
+          </div>
+          <h3 class="proj-title">PlagiaCheck &mdash; AI Plagiarism Detector</h3>
+          <p class="proj-desc">
+            Full-stack plagiarism detection system using 4 NLP algorithms in parallel &mdash;
+            N-gram Fingerprinting (35%), TF-IDF Cosine Similarity (30%), Jaccard Index (20%),
+            and LCS (15%). Supports .txt &amp; .pdf file uploads with a React + Node.js stack.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">React 18</span><span class="tag">Vite</span>
+            <span class="tag">Node.js</span><span class="tag">MongoDB</span>
+            <span class="tag">TF-IDF</span><span class="tag">NLP</span>
+            <span class="tag">N-gram</span>
+          </div>
+          <a href="https://github.com/SivaBalaji45/AI-Plagiarism-Detector"
+             class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
+        </div>
+
+        <!-- ── 4. Family App ── -->
         <div class="proj-card">
           <div class="proj-lang">
             <span class="lang-dot" style="background:#61dafb"></span>
@@ -351,9 +380,9 @@
           </div>
           <h3 class="proj-title">Adigopula Family App</h3>
           <p class="proj-desc">
-            Full-stack MERN family photo-sharing and genealogy platform with JWT
-            authentication, admin-controlled user accounts with role assignment,
-            Firebase Storage, and interactive multi-generation family tree visualization.
+            Full-stack MERN family photo-sharing and genealogy platform built to share memories
+            across the whole joint family. Features JWT auth, admin-controlled user accounts,
+            Firebase photo storage, and interactive multi-generation family tree visualization.
           </p>
           <div class="proj-tags">
             <span class="tag">React</span><span class="tag">Vite</span>
@@ -365,32 +394,11 @@
              class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
         </div>
 
-        <div class="proj-card">
-          <div class="proj-lang">
-            <span class="lang-dot" style="background:#f7941d"></span>
-            <span>HTML &middot; CSS &middot; JavaScript</span>
-            <span class="proj-year">2023</span>
-          </div>
-          <h3 class="proj-title">Text-to-Speech Converter</h3>
-          <p class="proj-desc">
-            Cross-browser text-to-speech app using the Web Speech API with dynamic
-            voice and language selection, responsive UI, and real-time speech synthesis —
-            zero backend, zero dependencies, runs entirely in the browser.
-          </p>
-          <div class="proj-tags">
-            <span class="tag">JavaScript</span><span class="tag">Web Speech API</span>
-            <span class="tag">HTML5</span><span class="tag">CSS3</span>
-            <span class="tag">Responsive UI</span>
-          </div>
-          <a href="https://github.com/SivaBalaji45/Text-to-Speech-Converter-using-HTML-CSS-JavaScript"
-             class="proj-btn" target="_blank" rel="noopener">open repo &#8599;</a>
-        </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════════════ -->
   <!--  CERTIFICATIONS                                         -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <section id="certifications">
