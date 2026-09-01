@@ -4,7 +4,8 @@
 
 /* ─── PROFILE IMAGE ──────────────────────────────────────── */
 // Google Drive direct image link (public "anyone with link" file)
-const PROFILE_IMG = 'https://drive.google.com/thumbnail?id=11xxpay6a-iqHo6DE6AHelaVWPiT6dajB&sz=w400';
+// GitHub avatar — always public and fast
+const PROFILE_IMG = 'https://avatars.githubusercontent.com/u/175281334?v=4';
 
 (function loadProfileImages() {
   document.querySelectorAll('.profile-img').forEach(function (img) {
