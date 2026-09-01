@@ -557,6 +557,39 @@ section {
 .p-user { color: var(--pri); } .p-at { color: var(--txt-muted); }
 .p-host { color: var(--sec); } .p-path { color: var(--txt-dim); }
 
+
+/* ─── FEATURED PROJECT CARD ──────────────────────────────── */
+.proj-featured {
+  grid-column: 1 / -1;
+  border-color: rgba(0,255,170,.3);
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(0,255,170,.03) 100%);
+}
+.proj-featured::before {
+  background: linear-gradient(90deg, var(--pri), var(--sec), var(--pri));
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.proj-featured .proj-title { font-size: 1.1rem; }
+.proj-featured .proj-desc  { max-width: 780px; }
+
+.feat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .66rem;
+  padding: .22rem .7rem;
+  border: 1px solid rgba(0,255,170,.4);
+  border-radius: 100px;
+  color: var(--pri);
+  background: rgba(0,255,170,.07);
+  margin-bottom: .8rem;
+  letter-spacing: .04em;
+}
+
 /* ─── FOOTER ─────────────────────────────────────────────── */
 footer {
   position: relative; z-index: 1;
